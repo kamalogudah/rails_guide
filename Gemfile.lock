@@ -1,3 +1,9 @@
+PATH
+  remote: components/todo
+  specs:
+    todo (0.1.0)
+      rails (~> 6.0.2, >= 6.0.2.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -212,6 +218,7 @@ DEPENDENCIES
   selenium-webdriver
   spring
   spring-watcher-listen (~> 2.0.0)
+  todo!
   turbolinks (~> 5)
   tzinfo-data
   web-console (>= 3.3.0)
